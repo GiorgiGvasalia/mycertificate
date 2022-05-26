@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.certificate {
+    width: 90%;
+    border: 15px solid black;
+    text-align: center;
+    padding: 30px;
+    margin-left: 5%;
+}
+
+.certificate-header {
+    background-color: black;
+    padding: 2.5rem;
+}
+
+.name-logo {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    color: white;
+    font-family: Sax Mono, monospace, sans-serif;
+    font-size: 1.3rem;
+}
+
+.name-logo i {
+   padding: 0.5rem;
+   font-size: 2.5rem;
+}
+
+.certificate-header  h4 {
+    color: white;
+    margin-top: 0.7rem;
+}
+
+.certificate-header h4 {
+    justify-content: flex-end;
+}
+
+/*  CERTIFICATE INFO */
+
+.certificate-info {
+    background-color: rgb(247, 244, 244);
+    padding: 1rem;
+}
+
+.certificate-info h1, h3, h4 {
+    margin-top: 2rem;
+}
+
+.certificate-info h1 {
+    font-size: 2.5rem;
+    font-weight: 500;
+}
+
+.certificate-info h3 {
+    font-weight: 400;
+    font-size: 1.5rem;
+}
+
+.certificate-signature img {
+    width: 300px;
+    margin-top: 1rem;
+    padding: 1rem;
+}
+
+@media(min-width: 400px) and ( max-width: 768px) {
+
+    .name-logo h1 {
+    text-align: center;
+    justify-content: center;
+    font-size: 1.3rem;
+    max-width: 300px;
+}
+    
+    .name-logo i {
+    padding: 0.4rem;
+    font-size: 1.3rem;
+    }
+
+    .certificate-info h1 {
+       font-size: 1.3rem;
+    }
+
+    .certificate-info h3 {
+        font-size: 1rem;
+    }
+
+    .certificate-info h4 {
+        font-weight: 500;
+    }
+
+    .certificate-signature img {
+        width: 200px;
+}
+
+    .certificate-signature h3 {
+        font-size: 0.6rem;
+    }
+}
+
+@media(max-width: 399px) {
+    .name-logo h1 {
+        font-size: 1.4rem;
+    }
+
+    .name-logo i {
+        font-size: 1.2rem;
+    }
+
+    .certificate-info h1 {
+        font-size: 1.2rem;
+    }
+
+    .certificate-info h3 {
+        font-size: 1rem;
+    }
+
+    .certificate-info h4 {
+        font-size: 0.8rem;
+        font-weight: 400;
+    }
+
+    .certificate-signature img {
+        width: 160px;
+    }
+
+    .certificate-signature h3 {
+        font-size: 0.7rem;
+        font-weight: 400;
+    }
+}
